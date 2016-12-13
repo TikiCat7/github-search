@@ -13,7 +13,7 @@ function repos(state = [], action) {
 
 function errorMessage(state = false, action) {
   switch(action.type) {
-    case 'USER_NAME_NOT_FOUND':
+    case 'SHOW_ERROR_MESSAGE':
       return action.payload
     case 'REMOVE_ERROR_MESSAGE':
       return action.payload

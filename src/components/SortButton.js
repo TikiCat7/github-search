@@ -9,12 +9,10 @@ class SortButton extends Component {
   }
 
   handleUp() {
-    console.log("up")
     this.props.orderUp()
   }
 
   handleDown() {
-    console.log("down")
     this.props.orderDown()
   }
 

@@ -43,7 +43,7 @@ function removeCurrentRepos() {
 
 function displayError() {
   return {
-    type: 'USER_NAME_NOT_FOUND',
+    type: 'SHOW_ERROR_MESSAGE',
     payload: true
   }
 }

@@ -14,14 +14,12 @@ class RepoWrapper extends Component {
   }
 
   orderUp() {
-    console.log("order up recieved")
     this.setState({
       order: true
     })
   }
 
   orderDown() {
-    console.log("order down recieved")
     this.setState({
       order: false
     })
