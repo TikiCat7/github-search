@@ -1,0 +1,10 @@
+.RepoList {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+.RepoLi {
+  margin-top: 10px;
+  list-style-type: none;
+}
