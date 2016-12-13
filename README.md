@@ -1,4 +1,12 @@
-Github search
+#github-search App
 
-#Boilerplate created using create-react-app library
-#Using redux & redux-thunk
++ Boilerplate was created using create-react-app
++ Uses redux & redux-thunk
+
+------
+
++ `git clone https://github.com/WataruKay/github-search`
++ `npm install`
++ `npm start`
++ `go to http://localhost:3000`
+
